@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "cli-tool/1.0.0": {
+        "dependencies": {
+          "EasyConsoleCore": "1.0.2"
+        },
+        "runtime": {
+          "cli-tool.dll": {}
+        }
+      },
+      "EasyConsoleCore/1.0.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/EasyConsoleCore.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cli-tool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EasyConsoleCore/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-orzh2aaSjZkSTrekjQlvF2cjUGj3iZSqUlbE6lC0eZtWz0BDLRyduiqSCtn6SMmXUNOCIvy06wbJHqKyOnP5cw==",
+      "path": "easyconsolecore/1.0.2",
+      "hashPath": "easyconsolecore.1.0.2.nupkg.sha512"
+    }
+  }
+}
