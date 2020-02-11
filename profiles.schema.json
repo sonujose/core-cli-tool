@@ -1,86 +1,14 @@
- 1 {
- 2   "definitions": {},
- 3   "$schema": "http://json-schema.org/draft-07/schema#",
- 4   "$id": "http://example.com/root.json",
- 5   "type": "object",
- 6   "title": "The Root Schema",
- 7   "required": [
- 8     "principal",
- 9     "resourceType",
-10     "resourceName",
-11     "operation",
-12     "Permission"
-13   ],
-14   "properties": {
-15     "principal": {
-16       "$id": "#/properties/principal",
-17       "type": "string",
-18       "title": "The Principal Schema",
-19       "default": "",
-20       "examples": [
-21         "User:Test1"
-22       ],
-23       "pattern": "^(.*)$"
-24     },
-25     "resourceType": {
-26       "$id": "#/properties/resourceType",
-27       "type": "string",
-28       "title": "The Resourcetype Schema",
-29       "default": "",
-30       "examples": [
-31         "topic"
-32       ],
-33       "pattern": "^(.*)$"
-34     },
-35     "resourceName": {
-36       "$id": "#/properties/resourceName",
-37       "type": "string",
-38       "title": "The Resourcename Schema",
-39       "default": "",
-40       "examples": [
-41         "test-topic"
-42       ],
-43       "pattern": "^(.*)$"
-44     },
-45     "patternType": {
-46       "$id": "#/properties/patternType",
-47       "type": "string",
-48       "title": "The Patterntype Schema",
-49       "default": "",
-50       "examples": [
-51         "prefixed"
-52       ],
-53       "pattern": "^(.*)$"
-54     },
-55     "operation": {
-56       "$id": "#/properties/operation",
-57       "type": "string",
-58       "title": "The Operation Schema",
-59       "default": "",
-60       "examples": [
-61         "All"
-62       ],
-63       "pattern": "^(.*)$"
-64     },
-65     "Permission": {
-66       "$id": "#/properties/Permission",
-67       "type": "string",
-68       "title": "The Permission Schema",
-69       "default": "",
-70       "examples": [
-71         "Allow"
-72       ],
-73       "pattern": "^(.*)$"
-74     },
-75     "operationGroup": {
-76       "$id": "#/properties/operationGroup",
-77       "type": "string",
-78       "title": "The Operationgroup Schema",
-79       "default": "",
-80       "examples": [
-81         "consumer"
-82       ],
-83       "pattern": "^(.*)$"
-84     }
-85   }
-86 }
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+      "principal",
+      "resourceType",
+     "resourceName",
+     "operation",
+     "Permission"
+    ]
+}
